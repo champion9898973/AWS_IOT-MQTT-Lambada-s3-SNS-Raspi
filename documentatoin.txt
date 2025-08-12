@@ -1,0 +1,26 @@
+1.Create AWS console login 
+
+1.Search for iot core
+2.In the left corner yu can find optioon called manage.
+    in sub find Name "Thing"
+
+    Hit on thing and create a thing 
+
+    There will be two options 
+
+    ->Create thing
+    ->Create Many things 
+
+    In my case i am creating a single thing.
+
+    First you need to enter name of the thing 
+
+    Remaing keep as it default and click on next.
+    will be navigataeed to Configure device certificate - optional Info
+
+    Here keep as a default option Auto-generate a new certificate (recommended)
+    and click next.
+
+    It will be navigate through Attach policies to certificate - optional
+
+    From here create a new policy

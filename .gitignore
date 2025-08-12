@@ -1,0 +1,11 @@
+# Ignore AWS credentials and certs
+*.pem
+*.key
+*.crt
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Env files (if you use any)
+.env
