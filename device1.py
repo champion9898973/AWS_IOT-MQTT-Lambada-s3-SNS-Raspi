@@ -41,9 +41,11 @@ def number_of_items_in_bin(device_id):
     #print("Published: " + json.dumps(items_count))
     return 0
 while(1):
+
     device_id = assign_Device_id(1)
     update_fill_levels_imgs(device_id)
     sensor_data(device_id)
     number_of_items_in_bin(device_id)
+ 
 
 
